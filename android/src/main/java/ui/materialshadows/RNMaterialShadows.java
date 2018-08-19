@@ -37,11 +37,11 @@ public class RNMaterialShadows extends ViewGroupManager<ViewGroup> {
         shadowFrame.setPadding(padding, padding, padding, padding);
     }
 
-//    @ReactProp(name = "shadowColor")
-//    public void setShadowColor(MaterialShadowFrameLayoutWrapper shadowFrame, String shadowColor) {
-//        MaterialShadowViewWrapper shadowViewWrapper = (MaterialShadowViewWrapper) shadowFrame.getChildAt(0);
-//        shadowFrame.setBackgroundColor(Color.parseColor(shadowColor));
-//    }
+    @ReactProp(name = "shadowColor")
+    public void setShadowColor(MaterialShadowFrameLayoutWrapper shadowFrame, String shadowColor) {
+        MaterialShadowViewWrapper shadowViewWrapper = (MaterialShadowViewWrapper) shadowFrame.getChildAt(0);
+        shadowFrame.setBackgroundColor(Color.parseColor(shadowColor));
+    }
 
 
     @ReactProp(name = "shadowOffsetX")
