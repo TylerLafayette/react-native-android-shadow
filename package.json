@@ -1,18 +1,18 @@
 
 {
-  "name": "react-native-material-shadows",
+  "name": "react-native-custom-shadows-android",
   "version": "0.0.2",
-  "description": "React Native: Native Material Shadows",
+  "description": "React Native: Custom android shadows!",
   "main": "RNMaterialShadows.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/prscX/react-native-material-shadows.git"
+    "url": "https://github.com/TylerLafayette/react-native-custom-shadows-android.git"
   },
   "keywords": ["react-native"],
-  "author": "Pranav Raj Singh Chauhan",
+  "author": "Tyler Lafayette <tyler@flik.im>",
   "license": "Apache License",
   "devDependencies": {
     "prettier-pack": "0.0.6"
