@@ -9,6 +9,7 @@ class RNMaterialShadows extends Component {
         return <MaterialShadows
             shadowOffsetX={this.props.shadowOffsetX} 
             shadowOffsetY={this.props.shadowOffsetY}
+            shadowColor={this.props.shadowColor}
             shadowAlpha={this.props.shadowAlpha}
             calculateAsync={this.props.calculateAsync}
             showWhenAllReady={this.props.showWhenAllReady}
@@ -28,6 +29,7 @@ RNMaterialShadows.propTypes = {
 
   shadowOffsetX: PropTypes.number,
   shadowOffsetY: PropTypes.number,
+  shadowColor: PropTypes.string,
   shadowAlpha: PropTypes.number,
   calculateAsync: PropTypes.bool,
   showWhenAllReady: PropTypes.bool,
